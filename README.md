@@ -36,7 +36,7 @@ Se comparado a uma lista dinâmica, exceto a nomenclatura, não há muitas modif
 
 # Compilação e Execução
 
-A lista dinâmica disponibilizada possui um arquivo Makefile que realiza todo o procedimento de compilação e execução. Para tanto, temos as seguintes diretrizes de execução:
+A fila dinâmica disponibilizada possui um arquivo Makefile que realiza todo o procedimento de compilação e execução. Para tanto, temos as seguintes diretrizes de execução:
 
 
 | Comando                |  Função                                                                                           |                     
