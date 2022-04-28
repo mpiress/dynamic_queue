@@ -23,7 +23,7 @@ void Desenfileira(Fila *f, Item *d){
 	
 	aux = f->first;
 	f->first = f->first->prox;
-	d->val   = f->data.val;
+	d->val   = aux->first->data.val;
 	free(aux);
 }
 
