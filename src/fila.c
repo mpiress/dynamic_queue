@@ -21,9 +21,9 @@ void Desenfileira(Fila *f, Item *d){
 		return;
 	}
 	
-	aux = f->first;
-	f->first = f->first->prox;
-	d->val   = aux->first->data.val;
+	aux = f->first->prox;
+	f->first->prox = aux->prox;
+	d->val   = aux->data.val;
 	free(aux);
 }
 
