@@ -23,6 +23,8 @@ void Desenfileira(Fila *f, Item *d){
 	
 	aux = f->first->prox;
 	f->first->prox = aux->prox;
+	if (f->first->prox == f->last)
+		f->last = f->first;
 	d->val   = aux->data.val;
 	free(aux);
 }
